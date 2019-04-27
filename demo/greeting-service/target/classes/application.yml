@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: greeting-service # Nome do serviço registrado
+
+server:
+  port: 8080 # Porta onde a aplicação é disponibilizada
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka # URL do Eureka Server onde a app deve se registrar
